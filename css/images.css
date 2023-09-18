@@ -44,3 +44,33 @@ body {
 .element-7 {
   background-color: hsl(0, 60%, 70%);
 }
+
+.manatee-1 {
+  background-image: url(../images/manatee.jpg);
+
+  height: 300px;
+  /* background-repeat: no-repeat; */
+  background-size: 300px;
+}
+
+img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.image-stack {
+  position: absolute;
+}
+
+.color-1 {
+  filter: invert(1);
+}
+
+.color-2 {
+  filter: blur(2px);
+}
+
+.color-3 {
+  filter: hue-rotate(50deg);
+}
